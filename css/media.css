@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (orientation: landscape) {
+	
+	
+	
+	
+	
+		/*------ MENÚ RESPONSIVE --------*/
+	.header-menu-list {
+		background: transparent; 
+		padding: 10px; 
+		overflow: hidden; 
+		display: block;
+	}
+	.collapsible{
+		position:absolute;
+		left:50px;top:2.5vh;
+		display: block;
+	}
+	.collapsible ul{
+		list-style:none;
+		padding:0px;
+		margin:0px;
+		float:left;
+	}
+	.collapsible ul li{
+		font-size: 2.5vw; 
+		list-style:none;
+		display:inline-block;
+		padding-right:2vw;
+	}
+	.collapsible a, .collapsible a:visited, .collapsible a:active { 
+		text-decoration: none; 
+		color: #fff!important; 
+		font-weight: 100!important;
+		text-shadow: 0 0 0 transparent;
+	}
+	.collapsible a:hover { 
+		text-decoration: none; 
+		color: #E2E2E2!important;
+	}
+	.menu-media{
+		background: transparent; 
+		width: auto;
+	}
+	.no-margin-btn {
+		margin: 0; 
+		float: right; 
+		top: -1vh; 
+		border-color: transparent!important; 
+		background-color: transparent!important;
+	}
+	#mypanel {
+		background-color: rgba(44, 22, 47, .9);
+		width: 100%;
+		height: 12vh!important;
+		min-height: 0%;
+	}	
+	  .ui-panel-dismiss {
+    display: none;
+  }
+	/*------ FIN MENÚ RESPONSIVE --------*/
+	
+	
+	.menu {
+		display: none;
+	}
+	
+	#US_toggle{
+		display: none;
+	}
+	
+	
+	div.index > img {
+		width: 45vw;
+		padding: 19vw 0 0 7vw;
+		float: left;
+	}
+	div.index > a.masde-btn {
+		margin: 22vw auto 0 auto;
+	}
+	div.index > a.masde-btn, div.index > a.conquis-btn {
+		width: 17vw;
+		text-align: left;
+		padding: 1.5vw 0 1.5vw 9vw!important;
+		font-weight: 500;
+		font-size: 5vh;
+	}
+	div.index {
+		background-image: url("../img/landscape 2.jpg");
+		background-size: cover;
+	}
+	div.index > a.conquis-btn {
+		margin: 2vw auto 0 auto;
+	}
+	.header {
+		/* margin-top: 10%; */
+		height: 130px;
+	}
+	div.header > h1 {
+		padding: .3em 0 0 6vw !important;
+	}
+	div.header > h3 {
+		padding: .3em 0 .25em 6vw !important;
+
+	}
+	a.chords-btn {
+		right: 8vw;
+	}
+	section {
+		padding: 0 3vw 0 3vw;
+	}
+	.chords-display > p {
+		font-size: 2vw;
+	}
+	div.ui-panel-inner > a.menu:first-of-type {
+		margin-top: 0vw;
+	}
+	div.ui-panel-inner > a.menu {
+		padding: 1.7vw;
+		padding-left: 10vw;
+		text-align: left;
+	}
+	div.ui-group-theme-d {
+		position: absolute;
+		right: 6vw;
+		bottom: 2vw;
+	}
+}

@@ -67,7 +67,7 @@ div.index {
 	background-size: cover;
 	margin: 0;
 	padding: 0;
-	height: 99.9%!important;
+	height: 100%!important;
 	width: 100%!important;
 	overflow: hidden;
     position: fixed;
@@ -79,7 +79,7 @@ div.indexpage {
 	background-color: #fff;	
 	margin: 0;
 	padding: 0;
-	height: 99.9%;
+	height: 100%;
 	width: 100%!important;
 	transition:background 1s!important;
 	position: relative;

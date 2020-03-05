@@ -3,14 +3,14 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.masdetres.lyrcs"
     versionCode = "20"
-    version     = "1.0.5" >
+    version     = "1.0.6" >
 
 <!-- versionCode is optional and Android only -->
 
-  <name>Lyrcs</name>
+  <name>7Songs</name>
 
   <description>
-	Letras cristianas para alabar.      
+	¡Cantá con nosotros! descargá la app y comenzá a alabar.
   </description>
 
   <icon src="icon.png"/>

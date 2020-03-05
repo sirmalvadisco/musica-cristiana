@@ -3,14 +3,14 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.masdetres.7songs"
     versionCode = "10"
-    version     = "1.0.0">
+    version     = "1.0.6" >
 
 <!-- versionCode is optional and Android only -->
 
   <name>7Songs</name>
 
   <description>
-	¡Cantá con nosotros!
+      Alaba con nosotros.
   </description>
 
   <icon src="icon.png"/>
